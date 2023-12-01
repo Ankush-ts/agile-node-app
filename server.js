@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 
 app.get("/",(req,res)=>{
-    res.status(200).json({message:"Hello Bunnu"})
+    res.send('<h1>Hello Bidu</h1>')
 })
 
 app.listen(3000)
